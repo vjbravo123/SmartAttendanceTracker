@@ -1,0 +1,14 @@
+footer {
+  background-color: #212529;
+  bottom: 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.header-container {
+  max-width: 100%; /* Make the header container full width */
+  padding: 0 20px; /* Add some horizontal padding for spacing */
+  margin: 0 auto; /* Center the header container */
+}

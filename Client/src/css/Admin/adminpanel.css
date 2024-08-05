@@ -1,0 +1,86 @@
+/* AdminPanel.css */
+
+.admin-panel {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .admin-panel h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .button-containerr {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .big-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .big-button:hover {
+    color: white;
+    background-color: #0056b3;
+  }
+  
+  /* Adjust styles as needed */
+  /* AdminPanel.css */
+
+.admin-panel {
+    position: relative;
+    top: 15%;
+    text-align: center;
+    padding: 20px;
+    height: 100vh; /* Full page height */
+    overflow: hidden; /* Hide overflow content */
+  }
+  
+  .admin-panel h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .button-containerr {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Needed for absolute positioning of buttons */
+    top: 20%; /* Center vertically */
+    transform: translateY(-50%);
+  }
+  
+  .big-button {
+    background-color: #007bff;
+
+    border: none;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    margin: 10px auto; /* Center horizontally and add margin between buttons */
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0; /* Initially hidden */
+    animation: slideIn 1s forwards; /* Animation */
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1; /* End visible */
+    }
+  }
+  
+  /* Adjust styles as needed */
+  
+  

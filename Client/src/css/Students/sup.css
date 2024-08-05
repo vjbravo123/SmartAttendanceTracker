@@ -1,0 +1,240 @@
+
+@media screen and (min-width:600px) and (max-width:2000px) { 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+.bomdy{
+  height:88vh;
+  /* background-image: url("../images/3386851.jpg"); */
+  background-repeat: no-repeat;
+  background-size: 104vw 88vh;
+  display: flex;
+  justify-content: center;  
+  align-content: center;
+  overflow: hidden;
+}
+.bomdy h1 , .bomdy label{
+  color:lavenderblush
+}
+
+
+#login-box {
+  margin-top: 5%;
+  position: relative;
+  
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  background: transparent;
+
+
+}
+.signupbtn{
+  padding-top: 322px;
+padding-left: 235px;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+.bomdy h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.bomdy input[type="text"],
+.bomdy input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 250px;
+  height: 32px;
+  border: none;
+  border-radius: 3%;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.bomdy input[type="text"]:focus,
+.bomdy input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+.subb {
+ 
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+.bomdy input[type="submit"]:hover,
+.bomdy input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.bomdy input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.rightt{
+    
+  position: absolute;
+  top: 35px;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background: url('https://goo.gl/YbktSj');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.rightt .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color:#222;
+  text-align: center;
+  
+}
+
+
+}
+@media screen and (min-width:300px) and (max-width:600px) { 
+  .bomdy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #667eea, #764ba2) !important;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #login-box {
+    width: 400px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    height: 853px;
+    background: transparent;
+  }
+  
+  #login-box h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  #login-box input[type="text"],
+  #login-box input[type="password"],
+  #login-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    background: #f2f2f2;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #login-box .subb {
+    background: #764ba2;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+  }
+  
+  #login-box .subb:hover {
+    background: #663399;
+  }
+  
+  .left {
+    float: left;
+    width: 100%;
+  }
+  
+  .rightt {
+    float: right;
+    width: 100%;
+  }
+  
+  .rightt label,
+  .left label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .rightt select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    background: #f2f2f2;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .rightt select option {
+    padding: 5px;
+  }
+  
+  .clear {
+    clear: both;
+  }
+   
+}
+

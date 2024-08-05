@@ -1,0 +1,230 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } */
+/*   
+  body {
+    font-family: Arial, sans-serif;
+  } */
+  
+  .heamder{
+    background-color: #0077b6;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+ .heamder h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .sdmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .attendancce{
+    display: block;
+  }
+ .sdmain section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 45%;
+  }
+  
+ .sdmain table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+ .sdmain th, td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+ .sdmain th {
+    background-color: #f2f2f2;
+  }
+  
+  .query form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+  .query label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .query input, .query textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    }
+  
+  
+  
+  
+  /* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  } */
+  
+  .containerr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:lightblue;
+    align-items: center;
+    
+  }
+  .status {
+    background-color:antiquewhite;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0077b6;
+    text-shadow: 1px 1px #fff;
+  }
+  
+  
+  .progress {
+    display:inline-flex;
+    /* flex-direction:column-reverse; */
+    justify-content:center;
+    /* align-content:end; */
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background: #07070c;
+    /* text-align: center !important; */
+    line-height: 200px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px white;
+  }
+  
+  .progress::after {
+    content: "%";
+  }
+  
+  .progress .title {
+    position: relative;
+    z-index: 100;
+  }
+  
+  .progress .overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #07070c;
+  }
+  
+  .progress .left,
+  .progress .right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 10px solid gray;
+    border-radius: 100px 0px 0px 100px;
+    border-right: 0;
+    transform-origin: right;
+  }
+  
+  .progress .left {
+    animation: load1 1s linear forwards;
+  }
+  
+  .progress:nth-of-type(2) .right,
+  .progress:nth-of-type(3) .right {
+    animation: load2 0.5s linear forwards 1s;
+  }
+  
+  .progress:last-of-type .right,
+  .progress:first-of-type .right {
+    animation: load3 0.8s linear forwards 1s;
+  }
+  
+  @keyframes load1 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  
+  @keyframes load2 {
+    0% {
+      z-index: 100;
+      transform: rotate(180deg);
+    }
+  
+    100% {
+      z-index: 100;
+      transform: rotate(270deg);
+    }
+  }
+  
+  @keyframes load3 {
+    0% {
+      z-index: 100;
+      transform: rotate(180deg);
+    }
+  
+    100% {
+      z-index: 100;
+      transform: rotate(315deg);
+    }
+  }
+  
+  .footerr {
+    background-color:#3dc297;
+    color: #555;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    border-top: 1px solid #ccc;
+  }
+  
+  @media screen and (min-width:350px) and (max-width:860px){
+    .sdmain{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1rem;
+      flex-direction: column;
+    }
+    .sdmain section {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 1rem;
+      padding: 1rem;
+      width: 100%;
+    }
+  }

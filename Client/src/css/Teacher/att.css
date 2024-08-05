@@ -1,0 +1,80 @@
+.tulla {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tulla  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .tulla th {
+    background-color: #E8E8E8;
+  }
+  
+  .tulla th:nth-child(4) {
+    border-right: none;
+  }
+  
+  .tulla td input[type="checkbox"] {
+    margin-left: 4px;
+  }
+  
+  .tulla  td input[type="checkbox"]:checked {
+    background-color: green;
+  }
+  
+  .tulla td:last-child {
+    font-weight: bold;
+    background-color: #E8E8E8;
+  }
+  
+  .tulla  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tulla tbody tr:hover {
+    background-color: #e6f7ff;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 25px;
+    margin:0px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .left-button,
+  .right-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .left-button:hover,
+  .right-button:hover {
+    background-color: #2980b9;
+  }
+  /* Add a container around the table */
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Adjust the font size and padding for smaller screens */
+@media (max-width: 768px) {
+  .tulla th,
+  .tulla td {
+    padding: 5px;
+    font-size: 12px;
+  }
+}

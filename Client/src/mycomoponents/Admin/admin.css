@@ -1,0 +1,36 @@
+.studadm{
+  background-color: #ecee81;
+}
+
+.database-list form
+{
+  background-color: #8ddfcb;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 20px;
+}
+.database-list button
+{
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+.database-list button, .database-list label
+{
+  display: block;
+  margin-bottom: 10px;
+}
+.database-list .student-ids-section
+{
+  background-color: #aed2ff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+}

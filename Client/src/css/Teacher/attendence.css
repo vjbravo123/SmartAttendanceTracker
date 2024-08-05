@@ -1,0 +1,154 @@
+.tb table {
+  border-collapse: collapse;
+  width: 70%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin: auto;
+  /* margin-top: 20px; */
+}
+
+.tb th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.tb td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tb tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tb tr:hover {
+  background-color: #ddd;
+}
+
+
+.downbtn button {
+  margin: 20px;
+  display: inline-block;
+  padding: 12px 32px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #53a7ea, #3886c9); /* Gradient background */
+  color: white; /* White text color */
+  text-align: center;
+  text-decoration: none;
+  transition: background-image 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  cursor: pointer;
+}
+
+.downbtn button:hover {
+  background-image: linear-gradient(to right, #3886c9, #53a7ea); /* Darker gradient color on hover */
+  transform: scale(1.05); /* Slightly scale up the button on hover */
+}
+
+.downbtn button:focus {
+  outline: none; /* Remove focus outline */
+}
+.tb {
+  position: relative;
+  overflow-x: auto;
+}
+
+.table-container2 {
+  overflow: hidden;
+}
+
+.fixed-header-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin: auto;
+}
+
+.flexxx{
+    display: flex;
+    justify-content: flex-end; /* Button will be on the right side */
+    align-items: center;
+    width: 100%;
+  
+}
+.fixed-header-table th,
+.fixed-header-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.fixed-header-table th {
+  position: sticky;
+  top: 0;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+  z-index: 2;
+}
+
+.fixed-header-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.fixed-header-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Adjust styles for smaller screens using media queries */
+@media (max-width: 768px) {
+  .table-container2 {
+    max-width: 100%;
+    padding: 0 15px;
+  }}
+  @media (max-width: 800px) {
+
+  .flexxx{
+    margin-left: 90px;
+  }
+    .downbtn {
+      margin-left: 0;
+      margin-top: 10px; /* Add spacing between buttons on smaller screens */
+    }
+  }
+  @media (max-width: 480px) {
+
+  .flexxx{
+    margin-left: 150px;
+  }
+    .downbtn {
+      margin-left: 0;
+      margin-top: 10px; /* Add spacing between buttons on smaller screens */
+    }
+  }
+  @media (max-width: 400px) {
+
+  .flexxx{
+    margin-left: 180px;
+  }
+    .downbtn {
+      margin-left: 0;
+      margin-top: 10px; /* Add spacing between buttons on smaller screens */
+    }
+  }
+  @media (max-width: 340px) {
+
+  .flexxx{
+    margin-left: 200px;
+  }
+    .downbtn {
+      margin-left: 0;
+      margin-top: 10px; /* Add spacing between buttons on smaller screens */
+    }
+  }

@@ -1,0 +1,319 @@
+.homebody
+{
+  align-items: center;
+  -webkit-animation: gradientAnimation 15s linear infinite;
+  animation: gradientAnimation 15s linear infinite;
+  background: linear-gradient(135deg,#ff6969,#facbea,#a6f6ff);
+    background-size: auto;
+  background-size: 400% 400%;
+  display: flex;
+  flex-direction: column;
+  min-height: 150vh;
+}
+.homebody .sidebar {
+  position: fixed;
+  width: 240px;
+  right: -240px;
+  height: 100%;
+  background: #1e1e1e;
+  background: #1b1b1b;
+  transition: all .5s ease;
+}
+
+.homebody .sidebar header {
+
+  font-size: 28px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #1b1b1b;
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar a {
+  display: block;
+  height: 65px;
+  width: 100%;
+  color: white;
+  line-height: 65px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  border-left: 5px solid transparent;
+  font-family: 'Open Sans', sans-serif;
+  transition: all .5s ease;
+}
+
+.homebody a.active,
+.homebody a:hover {
+  border-right: 5px solid #b93632;
+  color: #b93632;
+}
+
+.homebody .sidebar a i {
+  font-size: 23px;
+  margin-right: 16px;
+}
+
+.homebody .sidebar a span {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.homebody #check {
+  display: none;
+}
+
+.homebody label #btn,
+label #cancel {
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #262626;
+  margin: 15px 30px;
+  font-size: 29px;
+  background: #262626;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  /* transition: all .5s ease-out; */
+}
+
+.homebody label #btn {
+  right: 1%;
+  top: 8%;
+}
+
+.homebody label #cancel {
+  top: 3%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.homebody #check:checked~.sidebar {
+  right: 0;
+}
+
+.homebody #check:checked~label #btn {
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.homebody #check:checked~label #cancel {
+  right: 14rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+.homebody .headerr {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+
+.homebody .headerleft {
+  margin-left: 1rem;
+}
+
+.homebody .center {
+  margin-left: -80px;
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+}
+
+
+.homebody .headerright p {
+  margin-top: 1rem;
+}
+
+.homebody .logo
+{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: 2rem;
+}
+.homebody .college-heading
+{
+  color: #040d12;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+
+
+.homebody .conntainerrrrrr {
+  margin-top: 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+.homebody .conntainerrrrrr
+{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 150px 0;
+  width: 80%;
+}
+.homebody .centter
+{
+  margin-left: 28em;
+  text-align: center;
+  text-decoration: underline;
+
+}
+.homebody .login-option:hover
+{
+  box-shadow: 0 8px 12px rgba(0,0,0,.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.homebody .login-option
+{
+  align-items: center;
+  background: hsla(0,0%,100%,.2);
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  transition: box-shadow .3s ease-in-out,-webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out,box-shadow .3s ease-in-out;
+  transition: transform .3s ease-in-out,box-shadow .3s ease-in-out,-webkit-transform .3s ease-in-out;
+}
+
+.homebody .icon {
+  font-size: 48px;
+}
+
+.homebody h1,
+p {
+  font-family: 'Alkatra', cursive;
+  font-family: 'Courgette', cursive;
+  font-family: 'DM Serif Display', serif;
+  ;
+}
+.homebody .heading
+{
+  color: #444;
+  margin-left: 30px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  .homebody .headerr .headerleft {
+    margin-left: 0;
+  }
+
+  .homebody .centter {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+
+  .homebody .college-heading {
+    font-size: 18px;
+  }
+
+  .homebody .headerr .logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 1rem;
+  }
+  .homebody label #btn
+{
+  top: 4%;
+}
+
+  .homebody .heading {
+    margin-left: 0;
+    margin-top: 20vh;
+  }
+
+  .homebody .conntainerrrrrr {
+    margin-top: 6rem;
+    width: 90%;
+  }
+
+  .homebody .login-option {
+    height: 12rem;
+    padding: 1rem;
+  }
+
+  .homebody .icon {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 1350px) {
+.homebody .centter{
+  margin-left: 30vw;
+}
+}
+@media only screen and (max-width: 1250px) {
+.homebody .centter{
+  margin-left: 28vw;
+}
+}
+@media only screen and (max-width: 1100px) {
+.homebody .centter{
+  margin-left: 26vw;
+}
+}
+@media only screen and (max-width: 1000px) {
+.homebody .centter{
+  margin-left: 24vw;
+}
+}
+@media only screen and (max-width: 900px) {
+.homebody .centter{
+  margin-left: 22vw;
+}
+}
+@media only screen and (max-width: 800px) {
+.homebody .centter{
+  margin-left: 18vw;
+}
+}
+@media only screen and (max-width: 650px) {
+.homebody .centter{
+  margin-left: 14vw;
+}
+}
+@media only screen and (max-width: 600px) {
+.homebody .centter{
+  display: none;
+}
+}
+@media (max-width: 800px) {
+  .homebody .conntainerrrrrr
+{
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .homebody .login-option
+{
+    margin: 60px 0;
+    padding: 1.5rem;
+    height: 14rem;
+  }
+}

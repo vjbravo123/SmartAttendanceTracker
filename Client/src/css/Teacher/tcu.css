@@ -1,0 +1,63 @@
+.bodi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+}
+
+#login-boxx {
+  width: 90%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lefti {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.lefti h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bodi input[type='text'],
+.bodi input[type='password'],
+.bodi select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.bodi input[type='submit'],
+.bodi button[type='submit'] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.righti {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* Adjust the layout for larger screens */
+  #login-boxx {
+    width: 400px;
+  }
+
+  .righti {
+    margin-top: 0;
+  }
+}

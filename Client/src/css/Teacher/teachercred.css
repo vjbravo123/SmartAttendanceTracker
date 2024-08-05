@@ -1,0 +1,70 @@
+ .bodyy {
+    font-family: Arial, sans-serif;
+  } 
+  
+  .containerr {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,211,182,0.8701680501302084) 49%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-containerr {
+    background-color:transparent;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  }
+  
+  .login-containerr h1 {
+    color: #fff;    
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .login-containerr form {
+    margin-top: 20px;
+  }
+  
+  .login-containerr input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color:transparent;   
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-containerr button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-containerr  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-containerr button:active {
+    background-color: #003c80;
+  }
+  
+  .login-containerr button:focus {
+    outline: none;
+  }
+  
+  .login-containerr ::placeholder {
+    color: white;
+  }
+  

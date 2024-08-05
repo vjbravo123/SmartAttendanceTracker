@@ -1,0 +1,75 @@
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+
+  .snow{
+    height: 25px;
+    width: 30px;
+  }
+
+  .team-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    width: 400px;
+    height: 400px;
+}
+
+.team-item-img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    object-position: center; /* Center the image within the container */
+    margin-bottom: 20px;
+}
+
+.team-item-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-item-role {
+    font-size: 14px;
+    color: #999;
+}
+
+.team-item-social {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.team-item-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.team-item-social .social-link {
+    color: #333;
+    font-size: 20px;
+}
+
+.team-item-social .social-link:hover {
+    color: #007bff;
+}

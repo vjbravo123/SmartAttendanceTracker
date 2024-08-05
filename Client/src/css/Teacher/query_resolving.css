@@ -1,0 +1,70 @@
+
+.attendance {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: transparent;
+    margin: 20px;
+    height: 90vh;
+  }
+  
+  .attendance h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .attendance table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .attendance th {
+    background-color: #34495e;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .attendance td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .attendance tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .attendance select {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eee;
+    margin-right: 10px;
+  }
+  
+  .attendance button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .attendance button:hover {
+    background-color: #27ae60;
+  }
+  
+  .attendance select:focus,
+  .attendance button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3498db;
+  }
+  .attendance td{
+    color: black;
+  }
